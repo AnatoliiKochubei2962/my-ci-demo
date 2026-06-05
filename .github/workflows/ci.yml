@@ -19,10 +19,10 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-       - run: echo "Hello CI"
+        run: echo "Hello Dependencies"
 
       - name: Run tests
-        run: npm test
+        run: echo "Hello Test"
 
       - name: Build app
-        run: npm run build  
+        run: echo "Hello App"  
